@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+    text-align: center; /* Center the content within the body */
+}
+
+a {
+    background-color: none;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block; /* Center the anchor elements horizontally */
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center the content horizontally within the nav */
+    align-items: center; /* Center the content vertically within the nav */
+}
+
+.primary {
+    background-color: antiquewhite;
+}
+
+.background {
+    background-color: #ccc;
+}
