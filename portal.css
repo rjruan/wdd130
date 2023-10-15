@@ -1,0 +1,78 @@
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px 2em;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 3em;
+  }
+
+  .book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+  nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 55px;
+}       
+
+a {
+    background-color: lightblue;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block; /* Center the anchor elements horizontally */
+    border-radius: 10px;
+}
+a:hover{
+    background-color: darkgrey;
+    color: white;
+
+}
+nav {
+    display: flex;
+    justify-content: center; /* Center the content horizontally within the nav */
+    align-items: center; /* Center the content vertically within the nav */
+}
+h1{
+    font-size:3.5em;
+    text-align: center;
+    margin: 30px;
+}
+img{
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid lightblue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.primary {
+    background-color: yellow;
+}
+
+.background {
+    background-color: #ccc;
+}
