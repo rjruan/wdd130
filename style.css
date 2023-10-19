@@ -1,0 +1,41 @@
+
+body {
+    font-size: 16px;
+    background-color: beige;
+    text-align: center; /* Center the content within the body */
+}
+
+a {
+    background-color: lightblue;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px; /* Center the anchor elements horizontally */
+}
+a:hover{
+    background-color: darkgrey;
+    color: white;
+
+}
+nav {
+    display: flex;
+    justify-content: center; /* Center the content horizontally within the nav */
+    align-items: center; /* Center the content vertically within the nav */
+}
+h1{
+    font-size:1.5em;
+}
+img{
+    width: 60%;
+}
+
+.primary {
+    background-color: yellow;
+}
+
+.background {
+    background-color: #ccc;
+}
