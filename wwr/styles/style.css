@@ -28,6 +28,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
+    text-align: center;
 }
 #hero-box {
     grid-column: 1/4;
@@ -146,9 +147,14 @@ footer {
     transform: scale(1.1);
 }
 .card-img, .mountains, .rivers-card, .camping-card, .rapids-card, #background, .mountains, .msg {
-    display: grid;
+    /* display: grid; */
     width: 100%;
     justify-items: center;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
 }
 .rivers-card{
     grid-column: 2/4;
