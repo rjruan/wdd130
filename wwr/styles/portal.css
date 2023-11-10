@@ -3,6 +3,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+
 body {
     background-color: #fcfbfb;
     font-family: Raleway, Arial, sans-serif;
