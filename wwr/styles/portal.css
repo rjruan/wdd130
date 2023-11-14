@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:wght@500&family=Roboto+Slab:wght@500&display=swap');
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -6,7 +6,7 @@ header {
 
 body {
     background-color: #fcfbfb;
-    font-family: Raleway, Arial, sans-serif;
+    font-family:  Arial, sans-serif;
     font-size: 22px 2em;
     margin: 0;
     padding: 0;
@@ -46,6 +46,7 @@ h2 {
     grid-row: 2/3;
 
 }
+
 
 #camping-card{
 
@@ -113,7 +114,7 @@ h1{
     margin: 30px;
 }
 img{
-    width: 70%;
+    width: 1000%;
     display: block;
     margin: 20px auto;
     border: 3px solid lightblue;
@@ -127,4 +128,9 @@ img{
 
 .background {
     background-color: #ccc;
+}
+/* the page two */
+
+#title-two{
+    justify-content: center;
 }
