@@ -245,6 +245,9 @@ main{
   text-align: right;
 }
 /* home page */
+#introduction{
+  align-content: center;
+}
 #rock-img{
   width: 100%;
   height: 100%;
