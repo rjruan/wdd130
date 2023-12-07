@@ -387,28 +387,18 @@ form {
     margin-top: 3em;
 }  
 
-/* meeting instructors */
-
-/* #instructors{
-    display: grid;
-    grid-template-columns:1fr 1fr
-} */
-/* img{
-    width: 100%;
-    height: 100%;
-} */
 .sarah{
     
     /* border:solid 1px gray; */
-    overflow: hidden; /* 避免長方框下面顯示不正常 */
+    overflow: hidden; 
 }
 .sarah-img{
     width: 300px;
-    float:left; /* 圖片在左邊 */
+    float:left;
     padding: 20px;
 }
 .srtext{
-    float: right;  /* 文字在右邊 */
+    float: right;  
     color: #000;
 }
 .john{
@@ -420,7 +410,7 @@ form {
 }
 .john-img{
     width: 300px;
-    float:right; /* 圖片在左邊 */
+    float:right; 
     padding: 20px;
     
 }
@@ -429,10 +419,52 @@ form {
 }
 .joseph-img{
     width: 300px;
-    float:left; /* 圖片在左邊 */
+    float:left; 
     padding: 20px;
 }
 .stext{
-    float: right;  /* 文字在右邊 */
+    float: right;  
     color: #000;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }

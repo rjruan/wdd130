@@ -218,7 +218,7 @@ footer nav a:hover {
 }
 
   /* the people */
-main{
+.introduction{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   grid-gap: 20px;
@@ -380,4 +380,62 @@ main{
   color: #fcfbfb;
   text-align: center;
   padding: 35px;
+}
+/* meet the instructor */
+#trainer-img{
+  height: 100%;
+  width: 100%;
+}
+.instructors{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+#p1-img, #p2-img, #p3-img, #p4-img{
+  overflow: hidden;
+}
+.p1 {
+  border-radius: 50%;
+  width: 300px;
+  float: left; /* Align the image to the left */
+}
+
+.text1 {
+  float: right; /* Align the text to the right */
+  color: #000;
+}
+.p2 {
+  border-radius: 50%;
+  width: 300px;
+  float: left; /* Align the image to the left */
+}
+
+.text2 {
+  float: right; /* Align the text to the right */
+  color: #000;
+}
+.p3 {
+  border-radius: 50%;
+  width: 300px;
+  float: left; /* Align the image to the left */
+}
+
+.text3 {
+  float: right; /* Align the text to the right */
+  color: #000;
+}
+.p4 {
+  border-radius: 50%;
+  width: 300px;
+  float: left; /* Align the image to the left */
+}
+
+.text4 {
+  float: right; /* Align the text to the right */
+  color: #000;
+}
+
+.app{
+  grid-column: 1/3;
 }
